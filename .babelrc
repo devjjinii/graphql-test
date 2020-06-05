@@ -1,0 +1,6 @@
+// babel을 설치하고 babel-preset-env plugin 설정을 .babelrc에서 하였을 것이다.
+// .babelrc : babel plugin들을 모아놓고 사용할 설정파일
+// babel foundation에서는 plugin들을 포함한 번들파일을 포함 preset을 만들었다. 
+{
+    "presets" : ["@babel/preset-env"]
+}

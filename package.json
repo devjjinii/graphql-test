@@ -1,0 +1,17 @@
+{
+  "name": "testgraphql",
+  "version": "1.0.0",
+  "description": "Graphql",
+  "main": "index.js",
+  "author": "devjjinii",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "graphql-yoga": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  }
+}
